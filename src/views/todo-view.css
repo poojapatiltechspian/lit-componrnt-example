@@ -1,0 +1,33 @@
+/* :host {
+    display: block;
+    color: blue;
+  } */
+  :root {
+    --primary-color: #fff; 
+    --font-color: red;
+    --text-color: #2d2d2d;
+  }
+  .external-css-class { 
+   margin: 20px;
+   background: #2a3443;
+   border: 1px solid;
+   color: var(--font-color);;
+   padding: 10px;
+  }
+  button { 
+    width: 200px; 
+  }
+  p { font-family: sans-serif; }
+  .myclass { margin: 10px 100px; }
+  #main { padding: 30px; }
+  h1 { font-size: 4em; }
+
+  .checked {
+    color: orange;
+  }
+
+  .display-star {
+    font-size: 25px;
+    margin: 10px;
+    display: inline;
+  }
